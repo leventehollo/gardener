@@ -1,0 +1,5 @@
+GET     /seeds                      controllers.SeedController.list
+POST     /seeds                      controllers.SeedController.addSeed
+
+
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
