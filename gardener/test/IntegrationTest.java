@@ -1,5 +1,6 @@
 import org.junit.*;
 
+import org.mockito.Mock;
 import play.mvc.*;
 import play.test.*;
 
@@ -10,6 +11,7 @@ import static org.fluentlenium.core.filter.FilterConstructor.*;
 
 public class IntegrationTest {
 
+    @Mock String lk;
     /**
      * add your integration test here
      * in this example we just check if the welcome page is being shown
